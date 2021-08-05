@@ -198,7 +198,7 @@ main .body .reason h2 {
 }
 
 .bootstrap {
-  background: url("../dist/icons/bg2.jpg");
+  background: url("/icons/bg2.jpg");
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -255,7 +255,7 @@ main .body .reason h2 {
   padding: 10px 10%;
   justify-content: space-between;
   align-items: center;
-  background: url("../dist/icons/bg3.jpg") no-repeat center center/cover;
+  background: url("/icons/bg3.jpg") no-repeat center center/cover;
 }
 .projects .upper {
   height: 100vh;
@@ -271,12 +271,12 @@ main .body .reason h2 {
 .projects .upper .oblong .proj1-img {
   width: 100%;
   height: 50%;
-  background: url("../dist/proj/proj1.png") no-repeat top center/cover;
+  background: url("/proj/proj1.png") no-repeat top center/cover;
 }
 .projects .upper .oblong .proj2-img {
   width: 100%;
   height: 50%;
-  background: url("../dist/proj/proj2.png") no-repeat top center/cover;
+  background: url("/proj/proj2.png") no-repeat top center/cover;
 }
 .projects .lower {
   height: 100vh;
@@ -293,12 +293,12 @@ main .body .reason h2 {
 .projects .lower .oblong .proj3-img {
   width: 100%;
   height: 50%;
-  background: url("../dist/proj/proj3.png") no-repeat top center/cover;
+  background: url("/proj/proj3.png") no-repeat top center/cover;
 }
 .projects .lower .oblong .proj4-img {
   width: 100%;
   height: 50%;
-  background: url("../dist/proj/proj4.png") no-repeat top center/cover;
+  background: url("/proj/proj4.png") no-repeat top center/cover;
 }
 
 @media screen and (max-width: 1000px), screen and (max-height: 700px) {
@@ -363,11 +363,11 @@ main .body .reason h2 {
     border-radius: 50%;
     width: 30vh;
     height: 30vh;
-    background: url("../dist/106017426_3336438653068249_554660188301357591_n.jpg")
+    background: url("/106017426_3336438653068249_554660188301357591_n.jpg")
       no-repeat center center/cover;
   }
   main {
-    background: url("../dist/icons/bg.jpg") no-repeat center center/cover;
+    background: url("/icons/bg.jpg") no-repeat center center/cover;
   }
   main .body {
     display: flex;
@@ -427,7 +427,7 @@ main .body .reason h2 {
     font-size: 19px;
   }
   .bootstrap {
-    background: url("../dist/icons/bg2.jpg");
+    background: url("/icons/bg2.jpg");
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -480,7 +480,7 @@ main .body .reason h2 {
     padding: 10px 10%;
     justify-content: space-between;
     align-items: center;
-    background: url("../dist/icons/bg3.jpg") no-repeat center center/cover;
+    background: url("/icons/bg3.jpg") no-repeat center center/cover;
   }
   .projects .upper {
     height: 100vh;
@@ -496,12 +496,12 @@ main .body .reason h2 {
   .projects .upper .oblong .proj1-img {
     width: 100%;
     height: 50%;
-    background: url("../dist/proj/proj1.png") no-repeat top center/cover;
+    background: url("/proj/proj1.png") no-repeat top center/cover;
   }
   .projects .upper .oblong .proj2-img {
     width: 100%;
     height: 50%;
-    background: url("../dist/proj/proj2.png") no-repeat top center/cover;
+    background: url("/proj/proj2.png") no-repeat top center/cover;
   }
   .projects .lower {
     height: 100vh;
@@ -518,12 +518,12 @@ main .body .reason h2 {
   .projects .lower .oblong .proj3-img {
     width: 100%;
     height: 50%;
-    background: url("../dist/proj/proj3.png") no-repeat top center/cover;
+    background: url("/proj/proj3.png") no-repeat top center/cover;
   }
   .projects .lower .oblong .proj4-img {
     width: 100%;
     height: 50%;
-    background: url("../dist/proj/proj4.png") no-repeat top center/cover;
+    background: url("/proj/proj4.png") no-repeat top center/cover;
   }
 }
 
@@ -623,7 +623,7 @@ main .body .reason h2 {
     display: none;
   }
   main {
-    background: url("../dist/icons/bg.jpg") no-repeat center center/cover;
+    background: url("/icons/bg.jpg") no-repeat center center/cover;
   }
   main .body {
     display: flex;
@@ -681,7 +681,7 @@ main .body .reason h2 {
     font-size: 12px;
   }
   .bootstrap {
-    background: url("../dist/icons/bg2.jpg");
+    background: url("/icons/bg2.jpg");
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -735,7 +735,7 @@ main .body .reason h2 {
     padding: 0;
     justify-content: space-between;
     align-items: center;
-    background: url("../dist/icons/bg3.jpg") no-repeat center center/cover;
+    background: url("/icons/bg3.jpg") no-repeat center center/cover;
   }
   .projects .upper {
     height: 200vh;
@@ -759,12 +759,12 @@ main .body .reason h2 {
   .projects .upper .oblong .proj1-img {
     width: 100%;
     height: 50%;
-    background: url("../dist/proj/proj1.png") no-repeat top center/cover;
+    background: url("/proj/proj1.png") no-repeat top center/cover;
   }
   .projects .upper .oblong .proj2-img {
     width: 100%;
     height: 50%;
-    background: url("../dist/proj/proj2.png") no-repeat top center/cover;
+    background: url("/proj/proj2.png") no-repeat top center/cover;
   }
   .projects .lower {
     height: 200vh;
@@ -788,11 +788,11 @@ main .body .reason h2 {
   .projects .lower .oblong .proj3-img {
     width: 100%;
     height: 50%;
-    background: url("../dist/proj/proj3.png") no-repeat top center/cover;
+    background: url("/proj/proj3.png") no-repeat top center/cover;
   }
   .projects .lower .oblong .proj4-img {
     width: 100%;
     height: 50%;
-    background: url("../dist/proj/proj4.png") no-repeat top center/stretch;
+    background: url("/proj/proj4.png") no-repeat top center/stretch;
   }
 }
