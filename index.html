@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <title>My Portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on("click", function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <main id="top">
+      <!-- includes pictures and typescript -->
+      <div class="header">
+        <div class="ImgText">
+          <div class="img"></div>
+          <div class="text">
+            <p><span class="smallText"> Ronald Laz</span></p>
+            <div class="socmed">
+              <a href="https://www.facebook.com/Lexus654"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://github.com/lexus654"
+                ><i class="fab fa-github"></i>
+              </a>
+              <a href="https://twitter.com/ronaldlaz4"
+                ><i class="fab fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="typescript">
+          <h1>
+            An Aspiring
+            <span
+              class="txt-type"
+              data-wait="3000"
+              data-words='["Full Stack Web Developer","UI/UX Designer"]'
+            ></span>
+          </h1>
+        </div>
+      </div>
+      <!-- Why choose me div along with achieve, skills and built projects -->
+      <div class="body">
+        <div class="reason">
+          <h2>Why Choose me</h2>
+          <p>
+            <span class="smallText"
+              >Hello, once again I am Ronald Laz, I am a second year student at the Technological University of the Philippines taking Electronics Engineering
+              During the pandemic I discover that my passion is in programming, specifically, Web Deleopment. I am fascinated to how websites
+              help us people to connect with each other, and let programmers to showcase their creativeness to the whole world by making use 
+              of the internet. Witt this in mind I am dedicated to become a Full stack Web developer to create more powerful technology and innovate
+              our traditional way of doing things into a modern and technologically advance way.  </span
+            >
+          </p>
+        </div>
+        <div class="sections">
+          <div class="box">
+            <span class="mediumText"
+              ><a class = 'show-modal' href="#achievements">Achivements</a></span>
+          </div>
+          <div class="modal hidden">
+            <button class="close-modal">&times;</button>
+            <h1>My Achivements</h1>
+           <ul>
+             <li>DOST Scholar</li>
+             <li>2020 National level Impromtu Speaking Champion (Filipino Category)</li>
+             <li>Mobile Legends Student Leader</li>
+             <li>Consistent Honor Student</li>
+           </ul>
+          </div>
+          <div class="overlay hidden"></div>
+          
+          <div class="box">
+            <span class="mediumText"><a href="#skills">Skills</a></span>
+          </div>
+          <div class="box">
+            <span class="mediumText"><a href="#projects">Projects</a></span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- this is the Section Part Build using bootstrap progress bar -->
+    <section id="skills" class="bootstrap">
+      <div class="container">
+        <h1>Current TechStack that I have</h1>
+        <div class="current">
+         <img src="/dist/icons/html-5.png" alt="">
+         <img src="/dist/icons/css-3.png" alt="">
+         <img src="/dist/icons/javascript.png" alt="">
+         <img src="/dist/icons/python.png" alt="">
+         <img src="/dist/icons/sass.png" alt="">
+        </div>
+        <h1>TechStack that I plan to learn</h1>
+        <div class="future">
+          <img src="/dist/icons/nodejs.png" alt="">
+          <img src="/dist/icons/react.png" alt="">
+        </div>
+        </div>
+      </div>
+      <a href="#top" class="btn btn-up"><i class="fas fa-arrow-up"></i></a>
+      <a href="#projects" class="btn btn-down"><i class="fas fa-arrow-down"></i></a>
+    </section>
+    <!-- third section -->
+    <section id="projects" class="projects">
+      
+      <div id = 'upper' class="upper">
+        <div class="oblong">
+          <div class="proj1-img imgs"></div>
+          <div class="projText">
+            <h3>Project 1</h3>
+            <p>A timeline I created that reminds me of what are my current knowledge and serve as the plan on what technology 
+              I shall study in the upcoming months</p>
+          </div>
+        </div>
+        <div class="oblong">
+          <div class="proj2-img imgs"></div> 
+          <div class="projText">
+            <h3>Project 2</h3>
+            <p>A mini game I created as a challenge to gauge what I learn in HTML, CSS and Javascript using DOM manipulation</p>
+          </div>
+          
+        </div>
+        <a href="#skills" class="btn btn-up btn-light"><i class="fas fa-arrow-up"></i></a>
+        <a href="#lower" class="btn btn-down btn-light"><i class="fas fa-arrow-down"></i></a>
+          
+      </div>
+      <div id="lower" class="lower">
+        <div class="oblong">
+          <div class="proj3-img imgs"></div>
+          <div class="projText">
+            <h3>Project 3</h3>
+            <p>A mini landing website the I created for an imaginary company</p>
+          </div>
+        </div>
+        <div class="oblong">
+          <div class="proj4-img imgs"></div> 
+          <div class="projText">
+            <h3>Project 4</h3>
+            <p>A website that I created that can showcase the products of an imaginary coffee shop.</p>
+          </div>
+        </div>
+        <a href="#upper" class="btn btn-up btn-light"><i class="fas fa-arrow-up"></i></a>
+        <a href="#top" class="btn btn-home btn-light"><i class="fas fa-home"></i></a>
+      </div>
+     
+      
+    </section>
+
+    <script src="/dist/script.js"></script>
+  </body>
+</html>
